@@ -7,18 +7,39 @@
   </head>
   <body>
     <br><br>
-    <header>
-      Donaciones para Reyes Magos 2023
-    </header>
-    <br><br>
-    <main>
-      Hola, bienvenido en esta pagina vas a poder hacer tu donacion para los juguetes de Reyes Magos. 
-    </main> <br><br>
-    <footer></footer>
-    <!-- Iniciar el proceso de pedir los numeros de la tarjeta de crédito-->
-    <input type="text" placeholder="Por favor introduce tu numero de tarjeta de crédito" let="CreditCardNumber">
-    <br>
+    <header> <h1>Donaciones para Reyes Magos 2023</h1>
+    </header> <br><br>
     
+    <main>
+      <h2>Hola bienvenido en esta pagina vas a poder hacer tu donacion para los juguetes de Reyes Magos.</h2>  
+    <!-- Iniciar el proceso de pedir los numeros de la tarjeta de crédito-->
+    
+    <h2 class="intro"> <br>
+    Como sabes, hay muchos niños y niñas de escasos recursos que no tendran acceso a juguetes este año, pero tu puedes ayudarlos.<br> 
+    ¿Te gustaria aportar a los Reyes Magos? <br> 
+    </h2> 
+
+    <h1 class="askDonation"> 
+      <img src="./media/reyesmagos2.jpeg" alt="fotoreyesmagos" width="300"> <br><br> 
+      ¡Tú también puedes ser un Rey Mago! <br><br> 
+      <!-- class se usa para clasificar un texto y darle estilo en css --> 
+      <input type="text" placeholder="¿Cómo te llamas?" id="nombre"> <br><br>   
+      <button id="participar"> ¡Participar!</button> <br><br> 
+      <!-- button es un boton con texto -->
+    </h1>
+  
+    <div id="preguntarNumero">
+      Por favor introduce tu numero de tarjeta de crédito <br><br> 
+      <input type="text" id="cardNumber">  <br><br> 
+      <button id="donar"> ¡Donar!</button> <br><br> 
+
+    </div>
+
+  
+    </main> <br><br>
+   
+    
+     <footer></footer> 
     <script src="index.js" type="module"></script>
   </body>
 </html>

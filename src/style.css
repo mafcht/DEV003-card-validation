@@ -5,3 +5,12 @@ body{
     text-align: center;
     font-size: large;
 }
+
+button{
+    font-family: monospace, lucida handwriting; 
+    font-size: 20px;
+    text-align:center;
+    margin: auto;
+  }
+
+#preguntarNumero{display: none;}
