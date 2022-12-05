@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
+* [1. Introducción](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
@@ -16,18 +16,8 @@
 
 ## 1. Introduccion
 
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
-también llamado algoritmo de módulo 10, es un método de suma de verificación,
-se utiliza para validar números de identificación; tales como el IMEI de los
-celulares, tarjetas de crédito, etc.
-
-Este algoritmo es simple. Obtenemos la reversa del número a verificar (que
-solamente contiene dígitos [0-9]); a todos los números que ocupan una posición
-par se les debe multiplicar por dos, si este número es mayor o igual a 10,
-debemos sumar los dígitos del resultado; el número a verificar será válido si
-la suma de sus dígitos finales es un múltiplo de 10.
-
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+Este proyecto fue diseñado para la recaudación de fondos para los Reyes Magos. Se promocionara el enlace del proyecto para que las personas que lo deseen puedan donar el monto que gusten para ayudar a los niños de ecasos recursos a obtener también algun juguete el día de reyes. 
+Para generar el proyecto en Visual Studio fue necesario usar el cAlgoritmo de Luhn para verificar que la tarjet de crédito proporsionada fuera valida, si llegara a ser incorrecta volveria a pedir los datos al usuario. 
 
 ## 2. Resumen del proyecto
 
