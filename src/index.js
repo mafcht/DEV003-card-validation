@@ -11,11 +11,11 @@ botonParticipar.onclick = function () {
   document.getElementById("preguntarNumero").style.display = "block";
 };
 botonDonar.onclick = function () {
-  console.log(validator.isvalid(cardNumber.value))
+  console.log(validator.isValid(cardNumber.value))
   console.log(validator.maskify(cardNumber.value))   
   // para generar mensaje con el acumulador
-  if ((validator.isvalid(cardNumber.value)) === true){
-    alert("Tu tarjeta de crédito fue valida,muchas gracias por tu donación") 
+  if ((validator.isValid(cardNumber.value)) === true){
+    alert("Tu tarjeta de crédito fue valida, muchas gracias por tu donación") 
     //  message = acumulador.value
   }
   else {
