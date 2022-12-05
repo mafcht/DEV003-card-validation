@@ -1,0 +1,16 @@
+
+body{
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+button{
+    font-family: monospace, lucida handwriting; 
+    font-size: 20px;
+    text-align:center;
+    margin: auto;
+  }
+
+#preguntarNumero{display: none;}
