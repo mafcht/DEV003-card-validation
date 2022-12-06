@@ -1,11 +1,11 @@
 const validator = { 
 // ejemplo tarjeta 5457623898234113
-  isvalid : (cardNumber) =>  {
+  isValid : (cardNumber) =>  {
     // vamos a ir guardando la suma total en la siguiente variable
     let luhnSum = 0
     //convertir el string a un array y dividir por espacio
     const numeros = Array.from(cardNumber,Number)
-    // convierte string a numeros pero sin dividir Array.from(String(12345), Number);
+    // convierte string a numeros pero sin dividir 
     //funcion que recorre mi array
     for (let i=1; i< numeros.length; i+=2){
       // primer paso doblar el valor de los digitos pares empezando por el segundo digito de la derecha
@@ -28,18 +28,16 @@ const validator = {
   }
   // proceso enmascarar
   , maskify: (cardNumber) => {
-    let acumulador= ""
-    const numeros = Array.from(cardNumber,Number)
-    for (let i=0; i< numeros.length; i++){
-      if (i>11){
-        acumulador = acumulador + numeros[i]
-      }
-      else {
-        acumulador = acumulador + "#"
-      }
+    //cardNumber is a string already so we don't need to change it, we just need to split it
+    cardNumber = cardNumber.split("")
+    // we go through the numbers with a for and we state that we need to put a # in the last 4 index
+    for (let i=0 ; i < cardNumber.length - 4; i++){
+      cardNumber[i]="#"
     }
-    console.log(acumulador)
-    return acumulador
+    // Now we need to join again out string to print it 
+    cardNumber = cardNumber.join("")
+    console.log(cardNumber)
+    return cardNumber
   }
 }
 export default validator;
