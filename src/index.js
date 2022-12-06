@@ -13,15 +13,11 @@ botonParticipar.onclick = function () {
 botonDonar.onclick = function () {
   console.log(validator.isValid(cardNumber.value))
   console.log(validator.maskify(cardNumber.value))   
-  // para generar mensaje con el acumulador
   if ((validator.isValid(cardNumber.value)) === true){
-    alert("Tu tarjeta de crédito fue valida, muchas gracias por tu donación") 
-    //  message = acumulador.value
+    alert("Tu tarjeta de crédito numero: " + validator.maskify(cardNumber.value) +  "  fue valida. ¡Muchas gracias por tu donación!") 
   }
   else {
-    alert("Tarjeta de crédito invalida, por favor introducela nuevamente") 
+    alert("Tu tarjeta de crédito numero: " + validator.maskify(cardNumber.value) +  "  fue invalida. Por favor vuelve a introducirla.") 
   }
 };
-// validator.isValid() ya los llame 
-// validator.maskify()
 console.log(validator);
