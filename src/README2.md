@@ -2,12 +2,11 @@
 
 ## Índice
 
-* [1. Introducción](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Los objetivos generales de este proyecto son los siguientes](#3-consideraciones-generales)
-* [4. Quiénes son los principales usuarios de producto.](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [5. Cuáles son los objetivos de estos usuarios en relación con tu producto.](#5-hito-opcional-mostrar-la-franquicia-de-tarjeta)
-* [1. Introducción](#1-preámbulo)
+* [1. Introducción]
+* [2. Resumen del proyecto]
+* [3. Los objetivos generales de este proyecto son los siguientes]
+* [4. Quiénes son los principales usuarios de producto.]
+* [5. Cuáles son los objetivos de estos usuarios en relación con tu producto.]
 
 ***
 
@@ -25,34 +24,14 @@ El proyecto realiza las siguientes acciones:
 4. Valida la tarjeta de crédito usando dos funciones (isValid y maskify) y oculta las ultimos 4 dígitos del número de tarjeta. 
 5. Te dice si la tarjeta de crédito es valida o no es valida, si no es valida te pide que vuelvas a introducirla. 
 
-### 3. Los objetivos generales de este proyecto son los siguientes
+### 3. Quiénes son los principales usuarios de producto.
 
-* Trabajar en base a un boilerplate, la estructura básica de un proyecto en
-  distintas carpetas (a través modulos en JS).
-* Conocer las herramientas de mantenimiento y mejora del código (linters y
-  pruebas unitarias).
-* Aprender sobre objetos, estructuras, métodos e iteración (bucles)
-  en JavaScript
-* Implementar control de versiones con git (y la plataforma github)
+Los principales usuarios del producto son adultos, que tengan una tarjeta de crédito y esten buscando ayudar a los demas. Todas las personas que quieran hacer una donación a los "Reyes Magos" para ayudarles a comprar juguetes para niños de escasos recursos.
 
-## 4. Quiénes son los principales usuarios de producto.
+## 4. Cuáles son los objetivos de estos usuarios en relación con tu producto.
 
-* Este proyecto lo resolvemos de manera individual. Te recomendamos una
-  duracion de 1-3 sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
+Los usuarios del producto tienen como objetivo compartir un poco de lo que tienen para otros, en este caso esta página web les ayuda con a resolver esta nececidad, les da la opcion de donar un monto para poder comprar juguetes para que los niñ@s de escasos recursos también tengan un día de Reyes.
 
-## 5. Cuáles son los objetivos de estos usuarios en relación con tu producto.
+## 5. Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu
-trabajo cubra los objetivos principales.
-
-
-## 6. Cómo crees que el producto que estás creando está resolviendo sus problemas.
-
-Las partes opcionales tienen como intención permitirte profundizar un poco más
-sobre los objetivos de aprendizaje del proyecto. Todo en la vida tiene pros y
-contras, decide sabiamente si quieres invertir el tiempo en profundizar/
-perfeccionar o aprender cosas nuevas en el siguiente proyecto.
+El producto que se ofrece cumple con las espectativas del usuario, que es donar dinero para los "Reyes Magos" y hacer felices a varios niñ@s, resuelve su problema.
