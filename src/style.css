@@ -4,19 +4,26 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: large;
-    margin-top: 15px;
+    margin: 100px;
 }
 
 h1 {
   color: #001F26;
-  border: 1px solid black;
 }
 
 p {
   color:#001F26;
-  font-size: 15px;
+  font-size: 20px;
+  text-align:center;
+  margin: 15px, 15px;
 }
 
+input {
+  color:#001F26;
+  font-size: 20px;
+  text-align:center;
+  margin: 15px, 15px;
+}
 
 button{
     font-family: monospace, lucida handwriting; 
